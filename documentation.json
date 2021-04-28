@@ -1333,7 +1333,7 @@
                 "subtype": "variable",
                 "file": "src/app/components/pure-inbox-screen.stories.ts",
                 "type": "Story<PureInboxScreenComponent>",
-                "defaultValue": "(args) => ({\n  component: PureInboxScreenComponent,\n  props: args,\n})"
+                "defaultValue": "args => ({\n  props: args,\n})"
             },
             {
                 "name": "Template",
@@ -1471,7 +1471,7 @@
                     "subtype": "variable",
                     "file": "src/app/components/pure-inbox-screen.stories.ts",
                     "type": "Story<PureInboxScreenComponent>",
-                    "defaultValue": "(args) => ({\n  component: PureInboxScreenComponent,\n  props: args,\n})"
+                    "defaultValue": "args => ({\n  props: args,\n})"
                 }
             ],
             "src/app/components/pure-task-list.stories.ts": [
