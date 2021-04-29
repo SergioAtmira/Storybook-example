@@ -18,7 +18,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
           type="text"
           [value]="task?.title"
           readonly="true"
-          placeholder="Input title"
+          placeholder="Input title",
+          style="background: red;"
         />
       </div>
       <div class="actions">
